@@ -1,0 +1,12 @@
+If you are reading this, the bytes made it.
+
+They left one program, were split into packets, numbered, and sent out across
+the network. Some may have taken different paths, arrived out of order, or been
+resent after getting lost along the way. TCP quietly put them all back in order,
+and the receiver stitched them together until this message was whole again.
+
+A small thing — a file moving from one place to another — but underneath it is
+sockets, buffers, byte order, and a little agreed-upon protocol, all doing their
+jobs so that a sentence written in one place can be read, unchanged, in another.
+
+Built from scratch, understood end to end. Nicely done.
